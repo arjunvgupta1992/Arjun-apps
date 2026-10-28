@@ -1,0 +1,6 @@
+{
+  "name": "MoneyLens AI",
+  "description": "Smart Indian personal finance tracker with automated UPI & bank notification parsing, spending analytics, app usage insights, and local Room privacy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

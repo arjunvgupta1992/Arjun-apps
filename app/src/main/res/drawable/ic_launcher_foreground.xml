@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Magnifying Glass / Camera Lens Frame -->
+    <!-- Lens Circle (radius ~22 centered at 49, 47) -->
+    <path
+        android:strokeColor="#00D09C"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M 49,25 A 22,22 0 1 1 48.9,25 Z" />
+    
+    <!-- Lens Handle angled down-right -->
+    <path
+        android:strokeColor="#00D09C"
+        android:strokeWidth="5.5"
+        android:strokeLineCap="round"
+        android:pathData="M 65,63 L 81,79" />
+    
+    <!-- Inner Lens highlight arc -->
+    <path
+        android:strokeColor="#44FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M 33,40 A 18,18 0 0 1 49,29" />
+
+    <!-- Rupee Symbol ₹ centered inside lens (X: 39-59, Y: 35-59) -->
+    <!-- Top Horizontal Bar -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M 40,37 L 57,37" />
+    <!-- Second Horizontal Bar -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M 40,43 L 55,43" />
+    <!-- Vertical stem and upper semi-curve of Rupee -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 45,37 L 45,50 C 51,50 54,47 54,43 C 54,39 50,37 45,37" />
+    <!-- Downward diagonal leg of Rupee -->
+    <path
+        android:strokeColor="#FFC107"
+        android:strokeWidth="3.4"
+        android:strokeLineCap="round"
+        android:pathData="M 45,50 L 56,60" />
+    
+    <!-- AI Sparkle star at top right of the lens -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M 74,27 L 76,32 L 81,34 L 76,36 L 74,41 L 72,36 L 67,34 L 72,32 Z" />
+</vector>
